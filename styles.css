@@ -1,0 +1,113 @@
+/* Reset default margin and padding for all elements */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('5651980.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00aeef;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile section styling */
+#profile {
+    text-align: center;
+}
+
+#profile p {
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #555;
+}
+
+#profile img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Hobby images styling */
+.hobby-images {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Color added to text */
+h1, h2, h3, h4, h5, h6 {
+    color: #007acc;
+}
+
+p {
+    color: #333;
+}
+
+/* Career Goal text color */
+#career-goal {
+    color: #ff6600; /* Orange color for Career Goal */
+}
